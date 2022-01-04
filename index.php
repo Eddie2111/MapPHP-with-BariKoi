@@ -17,7 +17,7 @@
         $lon = $_GET['lon'];
     } else {
         echo "<h1>Latitude and Longitude must be set in URL</h1>";
-        echo "<p>Example: <a href='map.php?lat=23.818217&lon=89.956784'>map.php?lat=23.818217&lon=89.956784</a></p>";
+        echo "<p>Example: <a href='index.php?lat=23.818217&lon=89.956784'>map.php?lat=23.818217&lon=89.956784</a></p>";
         exit;
     }
     ?>
